@@ -1,0 +1,8 @@
+
+target 'JDMERefresh_Example' do
+    pod 'JDMERefresh', :git=>'https://github.com/wangfangshuai/JDMERefresh.git'
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'MJRefresh'
+  
+end
