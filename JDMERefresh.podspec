@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source_files = '../JDMERefresh/JDMERefresh/Classes/**/*'
 
 
-  s.public_header_files = '../JDMERefresh/JDMERefresh/Classes/**/*.h'
+  s.public_header_files = 'JDMERefresh/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 3.1.0'
   s.dependency 'MJRefresh', '~> 3.1.12'
