@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JDMERefresh'
-  s.version          = '0.1.0'
+  s.version          = '0.1.6'
   s.summary          = '读取gif播放时间自动设置，并居中显示的下拉刷新'
 
   s.homepage         = 'http://source.jd.com/app/JDMERefresh'
@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = '../JDMERefresh/JDMERefresh/Classes/**/*'
+  s.source_files = '/JDMERefresh/Classes/**/*'
 
 
-  s.public_header_files = 'JDMERefresh/Classes/**/*.h'
+  # s.public_header_files = 'JDMERefresh/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 3.1.0'
   s.dependency 'MJRefresh', '~> 3.1.12'
